@@ -1,0 +1,37 @@
+.chat {
+  width: 30%;
+  height: 80vh;
+  margin: auto;
+  background: white;
+  border-radius: 20px;
+  border: black 5px solid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.chat-bot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chat-bot-question{
+  height: 76px;
+  display: flex;
+  align-items: center;
+}
+
+.chat-bot-input {
+  width: 100%;
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background: #F5F5F5;
+  outline:none;
+  border-radius: 14px;
+  border: #E0E0E0 1px solid;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
